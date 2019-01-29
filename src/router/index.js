@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Condition from '@/components/Condition'
 import Loop from '@/components/Loop'
 import HandleUserInput from '@/components/HandleUserInput'
+import HandleInputTextBox from '@/components/HandleInputTextbox'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/HandleUserInput',
       name: 'Handle OnClick',
       component: HandleUserInput
+    },
+    {
+      path: '/HandleInputTextBox',
+      name: 'Handle Input TextBox',
+      component: HandleInputTextBox
     }
   ]
 })
