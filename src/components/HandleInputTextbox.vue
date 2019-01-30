@@ -7,10 +7,10 @@
 </template>
 
 <script>
-  export default {
-    name: 'appuserinput',
-    data() {
-      return { message: 'Please input your text' }
-    }
+export default {
+  name: 'appuserinput',
+  data () {
+    return { message: 'Please input your text' }
   }
+}
 </script>

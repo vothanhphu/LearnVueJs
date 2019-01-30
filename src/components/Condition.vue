@@ -5,10 +5,10 @@
   </div>
 </template>
 <script>
-  export default {
-    name: 'appcondition',
-    data() {
-      return { seen: true, hide: false }
-    }
+export default {
+  name: 'appcondition',
+  data () {
+    return { seen: true, hide: false }
   }
+}
 </script>
